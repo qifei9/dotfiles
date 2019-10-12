@@ -1,2 +1,3 @@
-# dotfiles
-My dotfiles
+# My Dotfiles
+
+- `init.vim` -- `~/.config/nvim/init.vim`
