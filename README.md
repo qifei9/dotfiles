@@ -5,3 +5,5 @@
 - `gitconfig` --- `~/.gitconfig`
 
 - `Rprofile` --- `~/.Rprofile`
+
+- `tmux.conf` -- `~/.tmux.conf`
