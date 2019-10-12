@@ -3,3 +3,5 @@
 - `init.vim` --- `~/.config/nvim/init.vim`
 
 - `gitconfig` --- `~/.gitconfig`
+
+- `Rprofile` --- `~/.Rprofile`
