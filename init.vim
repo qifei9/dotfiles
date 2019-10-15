@@ -285,9 +285,10 @@ let g:ale_fixers = {
 \}
 let g:ale_r_lintr_options = 'lintr::with_defaults(
 \   commented_code_linter = NULL,
-\   single_quotes_linter = NULL,
-\   object_name_linter = NULL
+\   single_quotes_linter  = NULL,
+\   object_name_linter    = NULL
 \)'
+let g:ale_r_styler_options = 'styler::tidyverse_style, indent_by = 4'
 let g:ale_sign_column_always = 1
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
