@@ -6,4 +6,16 @@
 
 - `Rprofile` --- `~/.Rprofile`
 
-- `tmux.conf` -- `~/.tmux.conf`
+- `tmux.conf` --- `~/.tmux.conf`
+
+- `zlogin` --- `~/.zlogin`
+
+- `zpreztorc` --- `~/.zpreztorc`
+
+- `zprofile` --- `~/.zprofile`
+
+- `zshenv` --- `~/.zshenv`
+
+- `zshrc` --- `~/.zshrc`
+
+- `zsh_plugins.txt` --- `~/.zsh_plugins.txt`

@@ -1,0 +1,19 @@
+sorin-ionescu/prezto
+sorin-ionescu/prezto path:modules/environment
+sorin-ionescu/prezto path:modules/directory
+sorin-ionescu/prezto path:modules/history
+sorin-ionescu/prezto path:modules/utility
+sorin-ionescu/prezto path:modules/completion
+sorin-ionescu/prezto path:modules/editor
+
+robbyrussell/oh-my-zsh path:plugins/git
+robbyrussell/oh-my-zsh path:plugins/vi-mode
+robbyrussell/oh-my-zsh path:plugins/extract
+
+mafredri/zsh-async
+supercrabtree/k
+b4b4r07/enhancd
+
+sindresorhus/pure
+sorin-ionescu/prezto path:modules/syntax-highlighting
+sorin-ionescu/prezto path:modules/history-substring-search
