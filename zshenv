@@ -25,6 +25,12 @@ export PAGER='zless'
 export LESS='-g -i -M -R -S -w -z-4'
 
 #
+# perl local::lib
+#
+
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"
+
+#
 # vdpau
 #
 
