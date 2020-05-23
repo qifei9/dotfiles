@@ -6,6 +6,8 @@
 
 - `Rprofile` --- `~/.Rprofile`
 
+- `Renviron` --- `~/.Renviron`
+
 - `tmux.conf` --- `~/.tmux.conf`
 
 - `zlogin` --- `~/.zlogin`
