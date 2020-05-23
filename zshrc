@@ -14,6 +14,7 @@ alias vim='nvim'
 alias cat='bat'
 alias top='gotop'
 alias ping='prettyping'
+alias z='zathura'
 
 #
 # languages
