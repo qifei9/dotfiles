@@ -146,6 +146,8 @@ Plug 'mhinz/vim-startify'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'tenfyzhong/CompleteParameter.vim' " be loaded after ultisnips
+Plug 'mattn/webapi-vim'
+Plug 'mattn/vim-gist'
 
 " File navigation
 Plug 'scrooloose/nerdtree'
@@ -163,6 +165,8 @@ Plug 'ncm2/ncm2-jedi'
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
 Plug 'ncm2/ncm2-tmux'
+Plug 'ncm2/ncm2-markdown-subscope'
+Plug 'ncm2/float-preview.nvim'
 Plug 'gaalcaras/ncm-R'
 
 " Git
@@ -211,11 +215,12 @@ Plug 'AndrewRadev/splitjoin.vim'
 Plug 'andymass/vim-matchup'
 Plug 'rhysd/clever-f.vim'
 Plug 'chrisbra/Colorizer'
-Plug 'metakirby5/codi.vim' " :Codi to do interactive scripting
-Plug 'wincent/ferret' " :Ack {something} or :Acks /{before}/{after}/
-Plug 'tpope/vim-eunuch' " do stuff like :SudoWrite
-Plug 'wsdjeg/FlyGrep.vim' " Ctrl+f (normal) to find file content
+"Plug 'metakirby5/codi.vim' " :Codi to do interactive scripting
+"Plug 'wincent/ferret' " :Ack {something} or :Acks /{before}/{after}/
+"Plug 'tpope/vim-eunuch' " do stuff like :SudoWrite
+"Plug 'wsdjeg/FlyGrep.vim' " Ctrl+f (normal) to find file content
 Plug 'tmux-plugins/vim-tmux-focus-events'
+"Plug 'liuchengxu/vim-which-key'
 
 " For general writing
 "Plug 'reedes/vim-wordy'
@@ -238,8 +243,18 @@ colorscheme dracula
 "set background=dark
 hi Conceal ctermbg=NONE guibg=NONE
 
+au BufNewFile,BufRead Snakefile set syntax=snakemake
+au BufNewFile,BufRead *.smk set syntax=snakemake
 
 " ===================== Start of Plugin Settings =====================
+
+
+" ===
+" === gist-vim
+" ===
+
+let g:gist_post_private = 1
+let g:gist_show_privates = 1
 
 
 " ===
@@ -277,6 +292,7 @@ let g:ale_sign_error   = '•'
 let g:ale_sign_warning = '•'
 let g:ale_linters = {
 \   'python': ['pyls'],
+\   'r': [''],
 \}
 let g:ale_fixers = {
 \   'python': ['yapf', 'isort'],
@@ -334,11 +350,17 @@ let r_syntax_folding = 0
 let rrst_syn_hl_chunk = 1
 let rmd_syn_hl_chunk = 1
 let R_objbr_place = 'console,above'
-let R_objbr_h = 15
+"let R_objbr_h = 15
 let R_hi_fun_paren = 1
 let rout_follow_colorscheme = 1 "highligh outputt with current colorscheme
 let Rout_more_colors = 1 " R commands in R output are highlighted
 let R_rconsole_width = 95
+
+let R_app = 'radian'
+let R_cmd = 'R'
+let R_hl_term = 0
+let R_args = []  " if you had set any
+let R_bracketed_paste = 1
 
 
 " ===
@@ -446,6 +468,7 @@ au User Ncm2PopupOpen set completeopt=noinsert,menuone,noselect
 au User Ncm2PopupClose set completeopt=menuone
 "set completeopt=noinsert,menuone,noselect
 let g:ncm2#complete_length = 2
+let g:float_preview#docked = 0
 
 
 " ===
@@ -620,5 +643,10 @@ nnoremap gv :GV<CR>
 let g:semshi#error_sign=0
 hi semshiErrorChar guibg=NONE
 
+
+" ===
+" === vim-which-key
+" ===
+nnoremap <silent> <leader> :WhichKey ','<CR>
 
 " ===================== End of Plugin Settings =====================
