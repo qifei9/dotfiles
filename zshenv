@@ -34,16 +34,21 @@ eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"
 # vdpau
 #
 
-export VDPAU_DRIVER=va_gl
+export VDPAU_DRIVER=nvidia
 
 #
 # VA-API
 #
 
-#export LIBVA_DRIVER_NAME=vdpau
+export LIBVA_DRIVER_NAME=vdpau
 
 #
 # bioperl
 #
 
 export PERL5LIB="$HOME/perl5/bioperl-live/lib:$HOME/perl5/bioperl-run/lib:$PERL5LIB"
+
+#
+# Firefox Hardware video acceleration
+#
+export MOZ_X11_EGL=1

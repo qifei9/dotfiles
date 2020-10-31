@@ -8,11 +8,11 @@
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-    /usr/local/{bin,sbin}
-    /usr/bin/vendor_perl
     $HOME/.local/bin
-    $HOME/perl5/bin
+    /usr/local/{bin,sbin}
     $path
+    $HOME/perl5/bin
+    /usr/bin/vendor_perl
 )
 
 # Ensure path arrays do not contain duplicates.
