@@ -9,6 +9,7 @@
 # Set the list of directories that Zsh searches for programs.
 path=(
     $HOME/.local/bin
+    /snap/bin
     /usr/local/{bin,sbin}
     $path
     $HOME/perl5/bin

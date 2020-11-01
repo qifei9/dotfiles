@@ -24,6 +24,7 @@ endif
 set clipboard+=unnamedplus
 let &t_ut=''
 set autochdir
+let g:python3_host_prog = '~/miniconda3/bin/python' " set python provider to conda
 
 
 " ===
@@ -157,7 +158,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " Taglist
-Plug 'liuchengxu/vista.vim'
+"Plug 'liuchengxu/vista.vim'
 
 " Auto Complete and lint
 Plug 'w0rp/ale'
@@ -191,7 +192,7 @@ Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax' " pandoc, syntax for rmarkdown
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'dkarter/bullets.vim', { 'for' :['markdown', 'vim-plug'] }
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+"Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 
 " Undo Tree
 Plug 'simnalamburt/vim-mundo'
