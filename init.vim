@@ -142,6 +142,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'thaerkh/vim-indentguides' "显示缩进线
 Plug 'mhinz/vim-startify'
 
+" syntax highligh
+Plug 'snakemake/snakemake', {'rtp': 'misc/vim'}
+
 " Snippets
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -178,6 +181,7 @@ Plug 'rhysd/conflict-marker.vim'
 " Python
 Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 Plug 'tweekmonster/braceless.vim'
+Plug 'snakemake/snakefmt' " snakemake format
 
 " R
 Plug 'jalvesaq/Nvim-R'
@@ -243,8 +247,6 @@ colorscheme dracula
 "set background=dark
 hi Conceal ctermbg=NONE guibg=NONE
 
-au BufNewFile,BufRead Snakefile set syntax=snakemake
-au BufNewFile,BufRead *.smk set syntax=snakemake
 
 " ===================== Start of Plugin Settings =====================
 
