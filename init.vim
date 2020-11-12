@@ -207,7 +207,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'aperezdc/vim-template'
 Plug 'junegunn/vim-easy-align'
 Plug 'jiangmiao/auto-pairs'
-Plug 'terryma/vim-multiple-cursors'
+Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
 " in Visual mode, type i' to select all text in '', or type i) i] i} ip
 Plug 'gcmt/wildfire.vim'
