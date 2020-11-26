@@ -26,10 +26,10 @@ alias vim='nvim'
 #alias top='gotop'
 #alias ping='prettyping'
 #alias z='zathura'
-#alias R='radian'
+alias R='radian'
 alias init_workspace='mkdir ./logs ./meta ./raw_data ./results ./scripts'
 #alias python='python38'
-alias tmux='tmux-next'
+#alias tmux='tmux-next'
 
 #
 # languages
