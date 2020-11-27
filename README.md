@@ -21,3 +21,5 @@
 - `zshrc` --- `~/.zshrc`
 
 - `zsh_plugins.txt` --- `~/.zsh_plugins.txt`
+
+- `radian_profile` --- `~/.radian_profile`
