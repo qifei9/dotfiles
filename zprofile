@@ -9,6 +9,7 @@
 # Set the list of directories that Zsh searches for programs.
 path=(
     $HOME/.local/bin
+    $HOME/.local/share/gem/ruby/3.0.0/bin
     /usr/local/{bin,sbin}
     $path
     $HOME/perl5/bin

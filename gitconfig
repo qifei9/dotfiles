@@ -13,3 +13,17 @@
 [core]
 	autocrlf = input
 	eol = native
+[credential]
+	helper = cache
+[pull]
+	rebase = false
+[safe]
+	directory = /home/qifei/working_remote/iog/working/processing/20190102_gDNA_3_enzyme_XRN1_remove_2_replicates_20211224
+	directory = /home/qifei/working_remote/iog/working/processing/20190303_gDNA_DNase_XRN1_AsisI_3_replicates_20211224
+	directory = /home/qifei/working_remote/iog/working/processing/20200711_K562_Li_20211221
+	directory = /home/qifei/working_remote/iog/working/processing/20200711_Spikeins_temp_switch_20211222
+	directory = /home/qifei/working_remote/iog/working/processing/20210602_K562_spikeins_Mg_pH8_RppH_XRN1_RtcB_20211217
+	directory = /home/qifei/working_remote/iog/working/processing/20210713_K562_spikeins_Mg_pH8_RppH_XRN1_tailing_20211213
+	directory = /home/qifei/working_remote/iog/working/processing/20210809_K562_spikeins_Mg_pH8_RppH_XRN1_RtcB_botin_Templateswitch_20211211
+	directory = /home/qifei/working_remote/iog/working/processing/20220106_k562_plus_spikeins_candidates_Mg_pH8_RppH_XRN1_polyA_20220111
+	directory = /home/qifei/working_remote/iog/working/processing/20220705_human_random_sequence_and_candidates_from_polyA_ligation_selection_20220706

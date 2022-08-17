@@ -27,6 +27,7 @@ alias ping='prettyping'
 alias z='zathura'
 alias R='radian'
 alias init_workspace='mkdir ./logs ./meta ./raw_data ./results ./scripts'
+alias rsync-copy2='rsync --info=progress2 --human-readable --compress --archive --hard-links --one-file-system --xattrs'
 
 #
 # languages
@@ -36,3 +37,5 @@ export LC_TIME='en_US.UTF-8'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+eval $(thefuck --alias)
